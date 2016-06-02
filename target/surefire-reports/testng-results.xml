@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: com&#x2F;mercury&#x2F;bdd&#x2F;login&#x2F;Login.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Login Functionality Feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: Login Functionality</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Login Functionality</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User is on Home Page (passed : 13s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User Navigate to LogIn Page (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User enters &quot;&lt;username&gt;&quot; and &quot;&lt;password&gt;&quot; (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Message displayed Login Successfully (passed : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Test Runner" duration-ms="19967" started-at="2016-06-02T05:37:31Z" finished-at="2016-06-02T05:37:51Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:com.mercury.bdd.login.RunnerLogin@61a485d2]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Cucumber test" duration-ms="19967" started-at="2016-06-02T05:37:31Z" finished-at="2016-06-02T05:37:51Z">
+      <class name="com.mercury.bdd.login.RunnerLogin">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:com.mercury.bdd.login.RunnerLogin@61a485d2]" name="run_cukes" duration-ms="19921" started-at="2016-06-02T11:07:31Z" description="Runs Cucumber Features" finished-at="2016-06-02T11:07:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: com&#x2F;mercury&#x2F;bdd&#x2F;login&#x2F;Login.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Login Functionality Feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: Login Functionality</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Login Functionality</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User is on Home Page (passed : 13s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User Navigate to LogIn Page (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User enters &quot;&lt;username&gt;&quot; and &quot;&lt;password&gt;&quot; (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Message displayed Login Successfully (passed : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- com.mercury.bdd.login.RunnerLogin -->
+    </test> <!-- Cucumber test -->
+  </suite> <!-- Test Runner -->
+</testng-results>
