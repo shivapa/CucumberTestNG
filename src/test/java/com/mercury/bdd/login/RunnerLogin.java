@@ -10,7 +10,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 import cucumber.api.testng.TestNGCucumberRunner;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin={"pretty","json:target/login.json","html:target/cucumber-html-report_Login"}
+@CucumberOptions(plugin={"pretty","json:target/cucumber.json","html:target/cucumber-html-report_Login"}
 		,features = "src/test/resources/"
 		,tags="@Login"
 		)
