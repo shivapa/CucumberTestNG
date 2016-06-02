@@ -10,5 +10,5 @@ Scenario Outline: Login Functionality
   Examples: 
     | username          | password  |
     | mercury           | mercury   |
-    | mercury           | mercury1   |
+    
    	
