@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test Runner" parallel="classes" thread-count="2">
-  <test name="Login test">
+   <test name="Login test">
      <packages>
       <package name="com.mercury.bdd.login" />
    </packages>
-    </test>
+    </test> 
    <test name="register test">
    <packages>
    <package name="com.mercury.bdd.register" />

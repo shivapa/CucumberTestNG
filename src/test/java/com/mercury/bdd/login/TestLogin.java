@@ -21,7 +21,7 @@ public class TestLogin extends Base {
 
 	String logintext;
 	
-	@Given("^User is on Home Page$")
+	@Given("^User is on Home Page Login$")
 	public void user_is_on_Home_Page() throws Throwable {
 		setup();
 		driver.get(Readproperty.Readpropertyfile().toString());

@@ -4,15 +4,15 @@
     "elements": [
       {
         "line": 14,
-        "name": "Login Functionality",
+        "name": "Register Functionality",
         "description": "",
-        "id": "registration-functionality-feature;login-functionality;;2",
+        "id": "registration-functionality-feature;register-functionality;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 9371451679,
+              "duration": 8469673031,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1348266749,
+              "duration": 1404421023,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 329218309,
+              "duration": 936120652,
               "status": "passed"
             },
             "line": 7,
@@ -72,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 441868590,
+              "duration": 577931274,
               "status": "passed"
             },
             "line": 8,
@@ -113,7 +113,7 @@
           },
           {
             "result": {
-              "duration": 2684372386,
+              "duration": 2485988094,
               "status": "passed"
             },
             "line": 9,
@@ -144,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 942089,
+              "duration": 121244,
               "status": "passed"
             },
             "line": 10,
@@ -164,15 +164,15 @@
       },
       {
         "line": 15,
-        "name": "Login Functionality",
+        "name": "Register Functionality",
         "description": "",
-        "id": "registration-functionality-feature;login-functionality;;3",
+        "id": "registration-functionality-feature;register-functionality;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 9319888072,
+              "duration": 8355640661,
               "status": "passed"
             },
             "line": 5,
@@ -184,7 +184,7 @@
           },
           {
             "result": {
-              "duration": 1665294612,
+              "duration": 1443116583,
               "status": "passed"
             },
             "line": 6,
@@ -196,7 +196,7 @@
           },
           {
             "result": {
-              "duration": 324624707,
+              "duration": 1090825160,
               "status": "passed"
             },
             "line": 7,
@@ -232,7 +232,7 @@
           },
           {
             "result": {
-              "duration": 457191835,
+              "duration": 556751627,
               "status": "passed"
             },
             "line": 8,
@@ -273,7 +273,7 @@
           },
           {
             "result": {
-              "duration": 3017921272,
+              "duration": 2285602290,
               "status": "passed"
             },
             "line": 9,
@@ -304,7 +304,7 @@
           },
           {
             "result": {
-              "duration": 79200,
+              "duration": 54755,
               "status": "passed"
             },
             "line": 10,

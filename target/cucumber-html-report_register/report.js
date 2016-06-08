@@ -14,9 +14,9 @@ formatter.feature({
 });
 formatter.scenarioOutline({
   "line": 4,
-  "name": "Login Functionality",
+  "name": "Register Functionality",
   "description": "",
-  "id": "registration-functionality-feature;login-functionality",
+  "id": "registration-functionality-feature;register-functionality",
   "type": "scenario_outline",
   "keyword": "Scenario Outline"
 });
@@ -54,7 +54,7 @@ formatter.examples({
   "line": 12,
   "name": "",
   "description": "",
-  "id": "registration-functionality-feature;login-functionality;",
+  "id": "registration-functionality-feature;register-functionality;",
   "rows": [
     {
       "cells": [
@@ -72,7 +72,7 @@ formatter.examples({
         "Confirm Password"
       ],
       "line": 13,
-      "id": "registration-functionality-feature;login-functionality;;1"
+      "id": "registration-functionality-feature;register-functionality;;1"
     },
     {
       "cells": [
@@ -90,7 +90,7 @@ formatter.examples({
         "sachin@123"
       ],
       "line": 14,
-      "id": "registration-functionality-feature;login-functionality;;2"
+      "id": "registration-functionality-feature;register-functionality;;2"
     },
     {
       "cells": [
@@ -108,16 +108,16 @@ formatter.examples({
         "shiva@123"
       ],
       "line": 15,
-      "id": "registration-functionality-feature;login-functionality;;3"
+      "id": "registration-functionality-feature;register-functionality;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
   "line": 14,
-  "name": "Login Functionality",
+  "name": "Register Functionality",
   "description": "",
-  "id": "registration-functionality-feature;login-functionality;;2",
+  "id": "registration-functionality-feature;register-functionality;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -179,14 +179,14 @@ formatter.match({
   "location": "TestRegister.user_is_on_Home_Page()"
 });
 formatter.result({
-  "duration": 10076094168,
+  "duration": 8469673031,
   "status": "passed"
 });
 formatter.match({
   "location": "TestRegister.User_navigates_Registration_Page()"
 });
 formatter.result({
-  "duration": 1473125565,
+  "duration": 1404421023,
   "status": "passed"
 });
 formatter.match({
@@ -211,7 +211,7 @@ formatter.match({
   "location": "TestRegister.User_enters_Contact_information(String,String,String,String)"
 });
 formatter.result({
-  "duration": 363604801,
+  "duration": 936120652,
   "status": "passed"
 });
 formatter.match({
@@ -240,7 +240,7 @@ formatter.match({
   "location": "TestRegister.User_enters_Mailing_information(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 472205127,
+  "duration": 577931274,
   "status": "passed"
 });
 formatter.match({
@@ -261,21 +261,21 @@ formatter.match({
   "location": "TestRegister.User_enters_User_information(String,String,String)"
 });
 formatter.result({
-  "duration": 3118147418,
+  "duration": 2485988094,
   "status": "passed"
 });
 formatter.match({
   "location": "TestRegister.Message_displayed()"
 });
 formatter.result({
-  "duration": 170133,
+  "duration": 121244,
   "status": "passed"
 });
 formatter.scenario({
   "line": 15,
-  "name": "Login Functionality",
+  "name": "Register Functionality",
   "description": "",
-  "id": "registration-functionality-feature;login-functionality;;3",
+  "id": "registration-functionality-feature;register-functionality;;3",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -337,14 +337,14 @@ formatter.match({
   "location": "TestRegister.user_is_on_Home_Page()"
 });
 formatter.result({
-  "duration": 8649994832,
+  "duration": 8355640661,
   "status": "passed"
 });
 formatter.match({
   "location": "TestRegister.User_navigates_Registration_Page()"
 });
 formatter.result({
-  "duration": 1481244054,
+  "duration": 1443116583,
   "status": "passed"
 });
 formatter.match({
@@ -369,7 +369,7 @@ formatter.match({
   "location": "TestRegister.User_enters_Contact_information(String,String,String,String)"
 });
 formatter.result({
-  "duration": 322350397,
+  "duration": 1090825160,
   "status": "passed"
 });
 formatter.match({
@@ -398,7 +398,7 @@ formatter.match({
   "location": "TestRegister.User_enters_Mailing_information(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 473967572,
+  "duration": 556751627,
   "status": "passed"
 });
 formatter.match({
@@ -419,14 +419,14 @@ formatter.match({
   "location": "TestRegister.User_enters_User_information(String,String,String)"
 });
 formatter.result({
-  "duration": 2679590073,
+  "duration": 2285602290,
   "status": "passed"
 });
 formatter.match({
   "location": "TestRegister.Message_displayed()"
 });
 formatter.result({
-  "duration": 78711,
+  "duration": 54755,
   "status": "passed"
 });
 });
