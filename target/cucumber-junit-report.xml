@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="22.142007">
+<testcase classname="Registration Functionality Feature" name="Register Functionality" time="10.726722">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User Navigate to Register Page.........................................passed
+And User enters Contact Information as "Shiv" and "Pandey" and "1223456789" and "shivp@gmail.com".passed
+And User enters Mailing Information as "Jbp" and "Jbp" and "MadhyaPradesh" and "412048" and "2".passed
+And User enters User Information as "shiv" and "password@123" and "password@123".passed
+Then Message displayed Registered Successfully..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration Functionality Feature" name="Register Functionality 2" time="11.415285">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User Navigate to Register Page.........................................passed
+And User enters Contact Information as "Shiva" and "Pandey" and "9876543212" and "shivap@gmail.com".passed
+And User enters Mailing Information as "Kalyani Nagar" and "Pune" and "Maharashtra" and "412265" and "146".passed
+And User enters User Information as "shivap" and "shiva@123" and "shiva@123".passed
+Then Message displayed Registered Successfully..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

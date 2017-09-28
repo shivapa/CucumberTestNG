@@ -46,7 +46,6 @@ public class TestLogin extends Base {
 			String actualtext = "CheckText";
 			assertEquals(logintext, actualtext);
 			System.out.println("handled the exception");
-
 		}
 	}
 

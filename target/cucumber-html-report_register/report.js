@@ -76,18 +76,18 @@ formatter.examples({
     },
     {
       "cells": [
-        "Sachin",
-        "Patil",
-        "98020246076",
-        "sachinp@gmail.com",
-        "Singhgad",
-        "Pune",
-        "Maharashtra",
-        "412245",
+        "Shiv",
+        "Pandey",
+        "1223456789",
+        "shivp@gmail.com",
+        "Jbp",
+        "Jbp",
+        "MadhyaPradesh",
+        "412048",
         "2",
-        "sachinp",
-        "sachin@123",
-        "sachin@123"
+        "shiv",
+        "password@123",
+        "password@123"
       ],
       "line": 14,
       "id": "registration-functionality-feature;register-functionality;;2"
@@ -96,7 +96,7 @@ formatter.examples({
       "cells": [
         "Shiva",
         "Pandey",
-        "98020247676",
+        "9876543212",
         "shivap@gmail.com",
         "Kalyani Nagar",
         "Pune",
@@ -139,7 +139,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "User enters Contact Information as \"Sachin\" and \"Patil\" and \"98020246076\" and \"sachinp@gmail.com\"",
+  "name": "User enters Contact Information as \"Shiv\" and \"Pandey\" and \"1223456789\" and \"shivp@gmail.com\"",
   "matchedColumns": [
     0,
     1,
@@ -150,7 +150,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "User enters Mailing Information as \"Singhgad\" and \"Pune\" and \"Maharashtra\" and \"412245\" and \"2\"",
+  "name": "User enters Mailing Information as \"Jbp\" and \"Jbp\" and \"MadhyaPradesh\" and \"412048\" and \"2\"",
   "matchedColumns": [
     4,
     5,
@@ -162,7 +162,7 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "User enters User Information as \"sachinp\" and \"sachin@123\" and \"sachin@123\"",
+  "name": "User enters User Information as \"shiv\" and \"password@123\" and \"password@123\"",
   "matchedColumns": [
     9,
     10,
@@ -179,96 +179,96 @@ formatter.match({
   "location": "TestRegister.user_is_on_Home_Page()"
 });
 formatter.result({
-  "duration": 8469673031,
+  "duration": 6542915853,
   "status": "passed"
 });
 formatter.match({
   "location": "TestRegister.User_navigates_Registration_Page()"
 });
 formatter.result({
-  "duration": 1404421023,
+  "duration": 1240059379,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Sachin",
+      "val": "Shiv",
       "offset": 36
     },
     {
-      "val": "Patil",
-      "offset": 49
+      "val": "Pandey",
+      "offset": 47
     },
     {
-      "val": "98020246076",
-      "offset": 61
+      "val": "1223456789",
+      "offset": 60
     },
     {
-      "val": "sachinp@gmail.com",
-      "offset": 79
+      "val": "shivp@gmail.com",
+      "offset": 77
     }
   ],
   "location": "TestRegister.User_enters_Contact_information(String,String,String,String)"
 });
 formatter.result({
-  "duration": 936120652,
+  "duration": 242273485,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Singhgad",
+      "val": "Jbp",
       "offset": 36
     },
     {
-      "val": "Pune",
-      "offset": 51
+      "val": "Jbp",
+      "offset": 46
     },
     {
-      "val": "Maharashtra",
-      "offset": 62
+      "val": "MadhyaPradesh",
+      "offset": 56
     },
     {
-      "val": "412245",
-      "offset": 80
+      "val": "412048",
+      "offset": 76
     },
     {
       "val": "2",
-      "offset": 93
+      "offset": 89
     }
   ],
   "location": "TestRegister.User_enters_Mailing_information(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 577931274,
+  "duration": 334837395,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "sachinp",
+      "val": "shiv",
       "offset": 33
     },
     {
-      "val": "sachin@123",
-      "offset": 47
+      "val": "password@123",
+      "offset": 44
     },
     {
-      "val": "sachin@123",
-      "offset": 64
+      "val": "password@123",
+      "offset": 63
     }
   ],
   "location": "TestRegister.User_enters_User_information(String,String,String)"
 });
 formatter.result({
-  "duration": 2485988094,
+  "duration": 2366537783,
   "status": "passed"
 });
 formatter.match({
   "location": "TestRegister.Message_displayed()"
 });
 formatter.result({
-  "duration": 121244,
+  "duration": 98591,
   "status": "passed"
 });
 formatter.scenario({
@@ -297,7 +297,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "User enters Contact Information as \"Shiva\" and \"Pandey\" and \"98020247676\" and \"shivap@gmail.com\"",
+  "name": "User enters Contact Information as \"Shiva\" and \"Pandey\" and \"9876543212\" and \"shivap@gmail.com\"",
   "matchedColumns": [
     0,
     1,
@@ -337,14 +337,14 @@ formatter.match({
   "location": "TestRegister.user_is_on_Home_Page()"
 });
 formatter.result({
-  "duration": 8355640661,
+  "duration": 6332083058,
   "status": "passed"
 });
 formatter.match({
   "location": "TestRegister.User_navigates_Registration_Page()"
 });
 formatter.result({
-  "duration": 1443116583,
+  "duration": 1561134728,
   "status": "passed"
 });
 formatter.match({
@@ -358,18 +358,18 @@ formatter.match({
       "offset": 48
     },
     {
-      "val": "98020247676",
+      "val": "9876543212",
       "offset": 61
     },
     {
       "val": "shivap@gmail.com",
-      "offset": 79
+      "offset": 78
     }
   ],
   "location": "TestRegister.User_enters_Contact_information(String,String,String,String)"
 });
 formatter.result({
-  "duration": 1090825160,
+  "duration": 240467429,
   "status": "passed"
 });
 formatter.match({
@@ -398,7 +398,7 @@ formatter.match({
   "location": "TestRegister.User_enters_Mailing_information(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 556751627,
+  "duration": 346308516,
   "status": "passed"
 });
 formatter.match({
@@ -419,14 +419,14 @@ formatter.match({
   "location": "TestRegister.User_enters_User_information(String,String,String)"
 });
 formatter.result({
-  "duration": 2285602290,
+  "duration": 2935216460,
   "status": "passed"
 });
 formatter.match({
   "location": "TestRegister.Message_displayed()"
 });
 formatter.result({
-  "duration": 54755,
+  "duration": 74954,
   "status": "passed"
 });
 });

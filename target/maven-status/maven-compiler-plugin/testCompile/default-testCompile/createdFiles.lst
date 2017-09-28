@@ -1,2 +1,4 @@
 com\mercury\bdd\login\TestLogin.class
+com\mercury\bdd\register\RunnerRegister.class
+com\mercury\bdd\login\RunnerLogin.class
 com\mercury\bdd\register\TestRegister.class

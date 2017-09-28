@@ -64,8 +64,8 @@ formatter.examples({
     },
     {
       "cells": [
-        "snehap@cybage.com",
-        "cybage@123"
+        "shivapa",
+        "password"
       ],
       "line": 13,
       "id": "login-functionality-feature;login-functionality;;3"
@@ -115,14 +115,14 @@ formatter.match({
   "location": "TestLogin.user_is_on_Home_Page()"
 });
 formatter.result({
-  "duration": 11680488861,
+  "duration": 6590615409,
   "status": "passed"
 });
 formatter.match({
   "location": "TestLogin.user_Navigate_to_LogIn_Page()"
 });
 formatter.result({
-  "duration": 1289999498,
+  "duration": 1087401704,
   "status": "passed"
 });
 formatter.match({
@@ -139,14 +139,14 @@ formatter.match({
   "location": "TestLogin.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 3740955275,
+  "duration": 6094390494,
   "status": "passed"
 });
 formatter.match({
   "location": "TestLogin.message_displayed_Login_Successfully()"
 });
 formatter.result({
-  "duration": 27560137,
+  "duration": 12845800,
   "status": "passed"
 });
 formatter.scenario({
@@ -175,7 +175,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "User enters \"snehap@cybage.com\" and \"cybage@123\"",
+  "name": "User enters \"shivapa\" and \"password\"",
   "matchedColumns": [
     0,
     1
@@ -191,38 +191,38 @@ formatter.match({
   "location": "TestLogin.user_is_on_Home_Page()"
 });
 formatter.result({
-  "duration": 9098109955,
+  "duration": 6116783172,
   "status": "passed"
 });
 formatter.match({
   "location": "TestLogin.user_Navigate_to_LogIn_Page()"
 });
 formatter.result({
-  "duration": 1404461600,
+  "duration": 1161702887,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "snehap@cybage.com",
+      "val": "shivapa",
       "offset": 13
     },
     {
-      "val": "cybage@123",
-      "offset": 37
+      "val": "password",
+      "offset": 27
     }
   ],
   "location": "TestLogin.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 3759052477,
+  "duration": 4656704274,
   "status": "passed"
 });
 formatter.match({
   "location": "TestLogin.message_displayed_Login_Successfully()"
 });
 formatter.result({
-  "duration": 53775340,
+  "duration": 14364792,
   "status": "passed"
 });
 });

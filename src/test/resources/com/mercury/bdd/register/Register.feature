@@ -10,6 +10,6 @@ Feature: Registration Functionality Feature
     Then Message displayed Registered Successfully
 
     Examples: 
-      | firstname | lastname | phone       | email             | Address       | City | State/Province | Postal Code | Country | User Name | Password   | Confirm Password |
-      | Sachin    | Patil    | 98020246076 | sachinp@gmail.com | Singhgad      | Pune | Maharashtra    |      412245 |       2 | sachinp   | sachin@123 | sachin@123       |
-      | Shiva     | Pandey   | 98020247676 | shivap@gmail.com  | Kalyani Nagar | Pune | Maharashtra    |      412265 |     146 | shivap    | shiva@123  | shiva@123        |
+      | firstname | lastname | phone       | email             | Address       | City | State/Province | Postal Code | Country | User Name | Password     | Confirm Password |
+      | Shiv      | Pandey   | 1223456789  | shivp@gmail.com   |  Jbp          | Jbp  | MadhyaPradesh  |      412048 |       2 | shiv      | password@123 | password@123     |
+      | Shiva     | Pandey   | 9876543212  | shivap@gmail.com  | Kalyani Nagar | Pune | Maharashtra    |      412265 |     146 | shivap    | shiva@123    | shiva@123        |

@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 	@RunWith(Cucumber.class)
-	@CucumberOptions(plugin={"pretty","json:target/register.json","html:target/cucumber-html-report_register"}
+	@CucumberOptions(plugin={"pretty","json:target/register.json","html:target/cucumber-html-report_register","junit:target/cucumber-junit-report.xml"}
 			,features = "src/test/resources/"
 			,tags="@Register"
 			)
