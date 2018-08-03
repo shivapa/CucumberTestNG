@@ -15,7 +15,7 @@ public class Base {
 	
 	public void setup() throws MalformedURLException {
 		//driver = new FirefoxDriver();
-		hubUrl="http://172.27.59.108:4443/wd/hub";
+		hubUrl="http://172.27.59.51:4443/wd/hub";
 		driver=new RemoteWebDriver(new URL(hubUrl),DesiredCapabilities.firefox());
 		driver.manage().window().maximize();
 	}
